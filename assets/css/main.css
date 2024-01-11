@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +7,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
   overflow-x: hidden;
 }
