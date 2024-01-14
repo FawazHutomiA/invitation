@@ -9,7 +9,7 @@
           alt="background"
           class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
         />
-        <div class="flex flex-col items-center pt-[6rem]">
+        <div class="flex flex-col items-center pt-[4rem]">
           <h1
             class="font-nunito bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] text-[18px]"
           >
@@ -55,7 +55,7 @@
           alt="background"
           class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
         />
-        <div class="flex flex-col items-center pt-[6rem] pb-[6rem]">
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
           <h1
             class="font-crimson font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] text-[18px]"
           >
@@ -99,14 +99,221 @@
 
           <!-- Ayat Suci -->
           <div class="flex flex-col items-center gap-y-4 px-6">
-            <p class="text-[#555555] text-[16px] font-crimson text-center italic">
-                “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
-                untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung
-                dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa
-                kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar
-                terdapat tanda-tanda bagi kaum yang berfikir.”
+            <p
+              class="text-[#555555] text-[16px] font-crimson text-center italic"
+            >
+              “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+              untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung
+              dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa
+              kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar
+              terdapat tanda-tanda bagi kaum yang berfikir.”
             </p>
-            <p class="font-crimson text-[16px] text-[#555555] font-bold">Al-Qur’an Surat Ar-Ruum (30:21)</p>
+            <p class="font-crimson text-[16px] text-[#555555] font-bold">
+              Al-Qur’an Surat Ar-Ruum (30:21)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Acara Kami -->
+      <div class="flex flex-col items-center w-full relative">
+        <img
+          src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
+          alt="background"
+          class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
+        />
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
+          <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
+            Acara Kami
+          </h2>
+
+          <!-- Akad -->
+          <div
+            class="mt-[3rem] flex flex-col items-center rounded-lg mx-4 w-full"
+          >
+            <img
+              src="https://www.app.bikin-undangan.com/_next/static/media/main-event.ba3e54eb.svg"
+              alt="cincin"
+            />
+            <p class="font-croissant font-bold text-[20px] text-[#477d59] mt-4">
+              Akad Nikah
+            </p>
+            <div class="flex items-center gap-x-4 mt-4">
+              <span class="font-crimson text-[20px] text-[#477d59] font-bold"
+                >Sabtu</span
+              >
+              <div
+                class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
+              >
+                <p
+                  class="font-crimson text-[46px] text-[#477d59] font-bold -mt-6"
+                >
+                  18
+                </p>
+                <p
+                  class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
+                >
+                  Febuari
+                </p>
+              </div>
+              <span class="font-crimson text-[20px] text-[#477d59] font-bold"
+                >Sabtu</span
+              >
+            </div>
+            <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
+              Pukul 08.00-10.00 WIB
+            </p>
+            <p class="font-crimson text-[16px] font-bold text-[#477d59] mt-4">
+              Alamat
+            </p>
+            <!-- alamat -->
+            <div class="flex flex-col items-center mt-4">
+              <p class="font-crimson text-[18px] font-bold text-[#555555]">
+                MASJID YAPIDH PUTRI
+              </p>
+              <p class="font-crimson text-[16px] font-normal text-[#555555]">
+                Kp. Pedurenan, 01/04, Jatiasih, Kota Bekasi
+              </p>
+            </div>
+            <a
+              href="https://goo.gl/maps/LNvK5nCvzSifvEQa8"
+              class="flex gap-x-2 items-center text-white px-4 py-2 rounded-lg bg-[#727E67] mt-4"
+              ><svg
+                stroke="#FFFFFF"
+                fill="#FFFFFF"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                height="1.01rem"
+                width="1.01rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 1.74.5 3.37 1.41 4.84.95 1.54 2.2 2.86 3.16 4.4.47.75.81 1.45 1.17 2.26.26.55.47 1.5 1.26 1.5s1-.95 1.25-1.5c.37-.81.7-1.51 1.17-2.26.96-1.53 2.21-2.85 3.16-4.4C18.5 12.37 19 10.74 19 9c0-3.87-3.13-7-7-7zm0 9.75a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"
+                ></path>
+              </svg>
+              Lihat Lokasi</a
+            >
+            <!-- countdown -->
+            <div class="grid auto-cols-max grid-flow-col gap-5 text-center mt-6">
+              <div
+                class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
+                style="
+                  border: 2px solid rgb(255, 255, 255);
+                  border-radius: 24px;
+                "
+              >
+                <span
+                  class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
+                  ><span style="--value: {{ days }}">{{ days }}</span></span
+                ><span class="text-[#436656]">DAYS</span>
+              </div>
+              <div
+                class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
+                style="
+                  border: 2px solid rgb(255, 255, 255);
+                  border-radius: 24px;
+                "
+              >
+                <span
+                  class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
+                  ><span style="--value: {{ hours }}">{{ hours }}</span></span
+                ><span class="text-[#436656]">HOURS</span>
+              </div>
+              <div
+                class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
+                style="
+                  border: 2px solid rgb(255, 255, 255);
+                  border-radius: 24px;
+                "
+              >
+                <span
+                  class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
+                  ><span style="--value: {{ minutes }}">{{ minutes }}</span></span
+                ><span class="text-[#436656]">MIN</span>
+              </div>
+              <div
+                class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
+                style="
+                  border: 2px solid rgb(255, 255, 255);
+                  border-radius: 24px;
+                "
+              >
+                <span
+                  class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
+                  ><span style="--value: {{ seconds }}">{{ seconds }}</span></span
+                ><span class="text-[#436656]">SEC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resepsi -->
+          <div
+            class="mt-[3rem] flex flex-col items-center rounded-lg mx-4 w-full"
+          >
+            <img
+              src="https://www.app.bikin-undangan.com/_next/static/media/secondary-event.2ba3a53d.svg"
+              alt="resepsi"
+            />
+            <p class="font-croissant font-bold text-[20px] text-[#477d59] mt-4">
+              Resepsi
+            </p>
+            <div class="flex items-center gap-x-4 mt-4">
+              <span class="font-crimson text-[20px] text-[#477d59] font-bold"
+                >Sabtu</span
+              >
+              <div
+                class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
+              >
+                <p
+                  class="font-crimson text-[46px] text-[#477d59] font-bold -mt-6"
+                >
+                  18
+                </p>
+                <p
+                  class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
+                >
+                  Febuari
+                </p>
+              </div>
+              <span class="font-crimson text-[20px] text-[#477d59] font-bold"
+                >Sabtu</span
+              >
+            </div>
+            <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
+              Pukul 10.00-13.00 WIB
+            </p>
+            <p class="font-crimson text-[16px] font-bold text-[#477d59] mt-4">
+              Alamat
+            </p>
+            <!-- alamat -->
+            <div class="flex flex-col items-center mt-4">
+              <p class="font-crimson text-[18px] font-bold text-[#555555]">
+                MASJID YAPIDH PUTRI
+              </p>
+              <p class="font-crimson text-[16px] font-normal text-[#555555]">
+                Kp. Pedurenan, 01/04, Jatiasih, Kota Bekasi
+              </p>
+            </div>
+            <a
+              href="https://goo.gl/maps/LNvK5nCvzSifvEQa8"
+              class="flex gap-x-2 items-center text-white px-4 py-2 rounded-lg bg-[#727E67] mt-4"
+              ><svg
+                stroke="#FFFFFF"
+                fill="#FFFFFF"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                height="1.01rem"
+                width="1.01rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 1.74.5 3.37 1.41 4.84.95 1.54 2.2 2.86 3.16 4.4.47.75.81 1.45 1.17 2.26.26.55.47 1.5 1.26 1.5s1-.95 1.25-1.5c.37-.81.7-1.51 1.17-2.26.96-1.53 2.21-2.85 3.16-4.4C18.5 12.37 19 10.74 19 9c0-3.87-3.13-7-7-7zm0 9.75a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"
+                ></path>
+              </svg>
+              Lihat Lokasi</a
+            >
           </div>
         </div>
       </div>
@@ -122,6 +329,11 @@ export default {
         name: "",
         message: "",
       },
+      targetDate: new Date('2024-02-18T23:59:59'), // Ganti dengan tanggal target Anda
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
     };
   },
   computed: {
@@ -131,8 +343,25 @@ export default {
     },
   },
   mounted() {
-    this.fetchData();
+    this.updateCountdown();
+    setInterval(this.updateCountdown, 1000);
   },
+  methods: {
+    updateCountdown() {
+      const currentDate = new Date();
+      const timeDifference = this.targetDate - currentDate;
+
+      if (timeDifference > 0) {
+        this.days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        this.hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        this.minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+        this.seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+      } else {
+        // Countdown selesai, hentikan interval
+        clearInterval(this.updateCountdown);
+      }
+    },
+  }
 };
 </script>
 <style>
