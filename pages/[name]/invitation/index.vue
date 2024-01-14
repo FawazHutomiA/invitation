@@ -38,7 +38,7 @@
           </div>
           <!-- Tamu -->
           <div
-            class="flex flex-col font-crimson items-center border-2 mb-[6rem] border-[#727E67] py-2 px-[7rem] mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
+            class="flex flex-col font-crimson items-center border-2 mb-[6rem] border-[#727E67] py-2 px-[6rem] mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
           >
             <p class="text-[16px] font-normal">Kepada Yth.</p>
             <p class="text-[16px] font-normal">Bapak/Ibu/Saudara/i</p>
@@ -66,14 +66,9 @@
           </h2>
           <!-- Dengan Memohon -->
           <div class="mt-2 flex flex-col items-center">
-            <p class="font-crimson text-[16px] text-[#555555]">
+            <p class="font-crimson text-[16px] text-center text-[#555555]">
               Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta’ala,
-            </p>
-            <p class="font-crimson text-[16px] text-[#555555]">
-              insyaaAllah kami akan menyelenggarakan acara
-            </p>
-            <p class="font-crimson text-[16px] text-[#555555]">
-              Walimatul ‘Ursy :
+              insyaaAllah kami akan menyelenggarakan acara Walimatul ‘Ursy :
             </p>
           </div>
 
