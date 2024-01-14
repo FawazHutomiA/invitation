@@ -500,7 +500,7 @@
             ></textarea>
             <button
               @click="handleSubmit"
-              class="text-white font-bold text-[16px] bg-[#477D5A] px-3 py-2 rounded-md "
+              class="text-white font-bold text-[16px] bg-[#477D5A] px-3 py-2 rounded-md"
             >
               Kirim
             </button>
@@ -527,6 +527,45 @@
       </div>
 
       <!-- Last Section -->
+      <div class="flex flex-col items-center w-full relative">
+        <img
+          src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
+          alt="background"
+          class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
+        />
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
+          <p
+            class="font-crimson font-normal px-3 text-center text-[16px] text-[#555555] mt-6"
+          >
+            Atas kehadiran dan do’a restu dari Bapak/Ibu/Saudara/i sekalian,
+            kami mengucapkan Terima Kasih.
+          </p>
+          <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
+            Wassalamu’alaikum Wr. Wb.
+          </h2>
+          <img
+            src="/img/risman.png"
+            alt="wedding"
+            class="w-[14rem] p-4 bg-gradient-to-r from-[#477D5A] to-[#727E67] rounded-full mt-6"
+          />
+          <h2
+            class="font-crimson font-normal px-3 text-center text-[16px] text-[#555555] mt-2"
+          >
+            Kami yang berbahagia
+          </h2>
+          <p
+            class="font-croissant font-semibold px-3 text-[20px] text-[#477d59] mt-3"
+          >
+            Risman & Salma
+          </p>
+
+          <div class="flex gap-x-2 text-[#791c25] mt-4">
+            <div>---------------</div>
+            <SvgLove :color="'#791c25'" />
+            <div>---------------</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
