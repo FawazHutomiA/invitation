@@ -336,7 +336,7 @@
             Moment Kami
           </h2>
           <ClientOnly>
-            <div class="lg:w-[50rem] w-[25rem] mt-4">
+            <div class="lg:w-[50rem] w-[20rem] mt-4">
               <vue-plyr>
                 <div class="plyr__video-embed">
                   <iframe
@@ -489,18 +489,18 @@
               id="base-input"
               placeholder="Nama"
               v-model="form.name"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[16rem] lg:w-[20rem] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[20rem] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <textarea
               id="message"
               rows="4"
-              class="block p-2.5 w-[16rem] lg:w-[20rem] text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="block p-2.5 w-[20rem] text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Tulis pesan anda disini..."
               v-model="form.message"
             ></textarea>
             <button
               @click="handleSubmit"
-              class="text-white font-bold text-[16px] bg-[#477D5A] px-3 py-2 rounded-md mt-4"
+              class="text-white font-bold text-[16px] bg-[#477D5A] px-3 py-2 rounded-md "
             >
               Kirim
             </button>
@@ -508,7 +508,7 @@
 
           <!-- list pesan -->
           <div
-            class="border-4 border-white shadow-2xl w-[20rem] flex flex-col gap-y-2 mt-4 p-4 rounded-lg h-[40rem] overflow-auto"
+            class="border-4 border-white shadow-2xl w-[20rem] flex flex-col gap-y-2 mt-10 p-4 rounded-lg h-[40rem] overflow-auto"
           >
             <div
               v-for="(item, index) in data"
