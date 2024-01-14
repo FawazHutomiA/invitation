@@ -8,7 +8,7 @@
       <p class="font-light tracking-wide text-[#477D5A] mt-12 text-[1.2rem]">Kepada Bapak/Ibu/Saudara/i:</p>
       <p class="bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] font-semibold mt-4 text-[2rem]">{{ getNameInvitation }}</p>
       <p class="font-light tracking-wide text-[#477D5A] mt-4 text-[1rem]">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
-      <button class="bg-[#727E67] hover:bg-[#477D5A] transition-all transform ease-in-out duration-300 text-white rounded-md mt-4 px-3 py-2">Buka Undangan</button>
+      <button @click="goToInvitation()" class="bg-[#727E67] hover:bg-[#477D5A] transition-all transform ease-in-out duration-300 text-white rounded-md mt-4 px-3 py-2">Buka Undangan</button>
       <p class="font-light tracking-wide text-[#477D5A] mt-4 text-[1rem]">* Mohon maaf apabila ada kesalahan penulisan nama/gelar</p>
       <pre>{{ data }}</pre>
       <div>
@@ -85,6 +85,9 @@ export default {
         name: "",
         message: "",
       }
+    },
+    goToInvitation() {
+      this.$router.push(`/${this.$route.params.username}/invitation`)
     }
   }
 }
