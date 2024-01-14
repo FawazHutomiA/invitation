@@ -10,17 +10,35 @@
       <p class="font-light tracking-wide text-[#477D5A] mt-4 text-[1rem]">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk menghadiri acara pernikahan kami.</p>
       <button class="bg-[#727E67] hover:bg-[#477D5A] transition-all transform ease-in-out duration-300 text-white rounded-md mt-4 px-3 py-2">Buka Undangan</button>
       <p class="font-light tracking-wide text-[#477D5A] mt-4 text-[1rem]">* Mohon maaf apabila ada kesalahan penulisan nama/gelar</p>
+      <pre>{{ data }}</pre>
+      <div>
+          <input
+            class="input"
+            type="text"
+            placeholder="Name (ex. 'help')"
+            v-model="form.name"
+          />
+          <input
+            class="input"
+            type="text"
+            placeholder="Message"
+            v-model="form.message"
+          />
+          <button @click="handleSubmit">Submit</button>
+      </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  mounted() {
-    // Access the 'to' parameter from the URL
-    const toParam = this.$route;
-    console.log(toParam); // You can use this value as needed
-
-    // Your other mounted logic goes here
+  data() {
+    return {
+      data: [],
+      form: {
+        name: "",
+        message: ""
+      }
+    }
   },
   computed: {
     getNameInvitation() {
@@ -36,6 +54,37 @@ export default {
       
       // Join the parts with ' & '
       return capitalizedParts.join(' & ');
+    }
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    async fetchData() {
+      const { result }  = await $fetch("/api/query?col=wedding")
+      this.data = result
+    },
+    async handleSubmit() {
+      try {
+        await $fetch("/api/add?col=wedding", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(this.form),
+        });
+
+        this.fetchData();
+        this.resetForm();
+      } catch (error) {
+        console.log(error.message);
+      }
+    },
+    resetForm() {
+      this.form = {
+        name: "",
+        message: "",
+      }
     }
   }
 }
