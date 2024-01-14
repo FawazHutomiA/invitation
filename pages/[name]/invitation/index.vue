@@ -337,22 +337,196 @@
           </h2>
           <ClientOnly>
             <div class="lg:w-[50rem] w-[25rem] mt-4">
-                <vue-plyr>
-              <div
-                class="plyr__video-embed"
-              >
-                <iframe
-                  src="https://www.youtube.com/embed/bk4MzGHi9QU"
-                  allowfullscreen
-                  allowtransparency
-                  allow="autoplay"
-                ></iframe>
-              </div>
-            </vue-plyr>
+              <vue-plyr>
+                <div class="plyr__video-embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/bk4MzGHi9QU"
+                    allowfullscreen
+                    allowtransparency
+                    allow="autoplay"
+                  ></iframe>
+                </div>
+              </vue-plyr>
             </div>
           </ClientOnly>
         </div>
       </div>
+
+      <!-- Section Keterangan -->
+      <div class="flex flex-col items-center w-full relative">
+        <img
+          src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
+          alt="background"
+          class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
+        />
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
+          <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
+            Keterangan
+          </h2>
+          <div class="flex flex-col gap-y-4 mt-4">
+            <div
+              class="border-2 border-[#555555] rounded-lg p-8 flex flex-col items-center gap-y-2 shadow-lg"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                class="text-5xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="240"
+                  height="240"
+                  x="136"
+                  y="136"
+                  rx="56"
+                  ry="56"
+                ></rect>
+                <path
+                  d="M336 96V32a16 16 0 00-16-16H192a16 16 0 00-16 16v64a80.09 80.09 0 00-80 80v160a80.09 80.09 0 0080 80v64a16 16 0 0016 16h128a16 16 0 0016-16v-64a80.09 80.09 0 0080-80V176a80.09 80.09 0 00-80-80zm56 224a72.08 72.08 0 01-72 72H192a72.08 72.08 0 01-72-72V192a72.08 72.08 0 0172-72h128a72.08 72.08 0 0172 72z"
+                ></path>
+              </svg>
+              <p class="font-crimson text-[#555555] text-[16px]">
+                Perhatikan Waktu Sholat
+              </p>
+            </div>
+
+            <div
+              class="shadow-lg border-2 border-[#555555] rounded-lg p-8 flex flex-col items-center gap-y-2"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 16 16"
+                class="text-5xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 0c-1.657 0-3 1.567-3 3.5 0 1.655 0.985 3.042 2.308 3.406l-0.497 8.096c-0.034 0.549 0.389 0.998 0.939 0.998h0.5c0.55 0 0.972-0.449 0.939-0.998l-0.497-8.096c1.323-0.365 2.308-1.751 2.308-3.406 0-1.933-1.343-3.5-3-3.5zM13.583 0l-0.833 5h-0.625l-0.417-5h-0.417l-0.417 5h-0.625l-0.833-5h-0.417v6.5c0 0.276 0.224 0.5 0.5 0.5h1.302l-0.491 8.002c-0.034 0.549 0.389 0.998 0.939 0.998h0.5c0.55 0 0.972-0.449 0.939-0.998l-0.491-8.002h1.302c0.276 0 0.5-0.224 0.5-0.5v-6.5h-0.417z"
+                ></path>
+              </svg>
+              <p class="font-crimson text-[#555555] text-[16px]">
+                Perhatikan Adab Makan dan Minum
+              </p>
+            </div>
+
+            <div
+              class="shadow-lg border-2 border-[#555555] rounded-lg p-8 flex flex-col items-center gap-y-2"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 640 512"
+                class="text-5xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 480c0 17.67 14.33 32 32 32h64c17.67 0 32-14.33 32-32V160H0v320zm579.16-192c17.86-17.39 28.84-37.34 28.84-58.91 0-52.86-41.79-93.79-87.92-122.9-41.94-26.47-80.63-57.77-111.96-96.22L400 0l-8.12 9.97c-31.33 38.45-70.01 69.76-111.96 96.22C233.79 135.3 192 176.23 192 229.09c0 21.57 10.98 41.52 28.84 58.91h358.32zM608 320H192c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h32v-64c0-17.67 14.33-32 32-32s32 14.33 32 32v64h64v-72c0-48 48-72 48-72s48 24 48 72v72h64v-64c0-17.67 14.33-32 32-32s32 14.33 32 32v64h32c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM64 0S0 32 0 96v32h128V96c0-64-64-96-64-96z"
+                ></path>
+              </svg>
+              <p class="font-crimson text-[#555555] text-[16px]">
+                Do'akan Pasangan Pengantin
+              </p>
+            </div>
+
+            <div
+              class="shadow-lg border-2 border-[#555555] rounded-lg p-8 flex flex-col items-center gap-y-2"
+            >
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                class="text-5xl"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.014 12.135c.074 2.062 1.789 3.777 3.851 3.851l-3.851-3.851z"
+                ></path>
+                <path
+                  d="M4 20h11.879l-2-2H4V8.121L2.144 6.265A1.976 1.976 0 0 0 2 7v11c0 1.103.897 2 2 2zM20 5h-2.586l-2.707-2.707A.996.996 0 0 0 14 2h-4a.997.997 0 0 0-.707.293L6.586 5h-.172L3.707 2.293 2.293 3.707l18 18 1.414-1.414-.626-.626A1.98 1.98 0 0 0 22 18V7c0-1.103-.897-2-2-2zm-6.081 7.505-2.424-2.425c.163-.046.331-.08.505-.08 1.065 0 2 .935 2 2 0 .174-.033.342-.081.505zm1.502 1.501A3.881 3.881 0 0 0 16 12c0-2.168-1.832-4-4-4-.729 0-1.412.22-2.007.579L7.914 6.5l2.5-2.5h3.172l2.707 2.707A.996.996 0 0 0 17 7l3-.001V18h-.586l-3.993-3.994z"
+                ></path>
+              </svg>
+              <p class="font-crimson text-[#555555] text-[16px]">
+                Dilarang Mengambil Gambar Tanpa Izin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ucapan dan Doa -->
+      <div class="flex flex-col items-center w-full relative">
+        <img
+          src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
+          alt="background"
+          class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
+        />
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
+          <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
+            Ucapan dan Doa
+          </h2>
+          <p class="font-crimson font-normal text-[16px] text-[#555555] mt-6">
+            Berikan ucapan terbaik untuk kedua mempelai
+          </p>
+
+          <!-- Form -->
+          <div class="flex flex-col gap-y-4 mt-4">
+            <input
+              type="text"
+              id="base-input"
+              placeholder="Nama"
+              v-model="form.name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[16rem] lg:w-[20rem] p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            />
+            <textarea
+              id="message"
+              rows="4"
+              class="block p-2.5 w-[16rem] lg:w-[20rem] text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Tulis pesan anda disini..."
+              v-model="form.message"
+            ></textarea>
+            <button
+              @click="handleSubmit"
+              class="text-white font-bold text-[16px] bg-[#477D5A] px-3 py-2 rounded-md mt-4"
+            >
+              Kirim
+            </button>
+          </div>
+
+          <!-- list pesan -->
+          <div
+            class="border-4 border-white shadow-2xl w-[20rem] flex flex-col gap-y-2 mt-4 p-4 rounded-lg h-[40rem] overflow-auto"
+          >
+            <div
+              v-for="(item, index) in data"
+              :key="index"
+              class="flex flex-col bg-white shadow-lg w-full p-4"
+            >
+              <p class="text-[16px] font-bold text-[#19150e]">
+                {{ item.name }}
+              </p>
+              <p class="text-[16px] font-normal text-[#625b4f]">
+                {{ item.message }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last Section -->
     </div>
   </div>
 </template>
@@ -370,7 +544,6 @@ export default {
       hours: 0,
       minutes: 0,
       seconds: 0,
-      embedUrl: "https://youtu.be/bk4MzGHi9QU",
     };
   },
   computed: {
@@ -380,6 +553,8 @@ export default {
     },
   },
   mounted() {
+    this.fetchData();
+
     this.updateCountdown();
     setInterval(this.updateCountdown, 1000);
   },
@@ -401,6 +576,32 @@ export default {
         // Countdown selesai, hentikan interval
         clearInterval(this.updateCountdown);
       }
+    },
+    async fetchData() {
+      const { result } = await $fetch("/api/query?col=wedding");
+      this.data = result;
+    },
+    async handleSubmit() {
+      try {
+        await $fetch("/api/add?col=wedding", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(this.form),
+        });
+
+        this.fetchData();
+        this.resetForm();
+      } catch (error) {
+        console.log(error.message);
+      }
+    },
+    resetForm() {
+      this.form = {
+        name: "",
+        message: "",
+      };
     },
   },
 };
