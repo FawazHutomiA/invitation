@@ -209,7 +209,7 @@
                 <span
                   class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
                   ><span style="--value: {{ days }}">{{ days }}</span></span
-                ><span class="text-[#436656]">DAYS</span>
+                ><span class="text-[#436656]">HARI</span>
               </div>
               <div
                 class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
@@ -221,7 +221,7 @@
                 <span
                   class="countdown text-center text-4xl text-[#436656] sm:text-5xl"
                   ><span style="--value: {{ hours }}">{{ hours }}</span></span
-                ><span class="text-[#436656]">HOURS</span>
+                ><span class="text-[#436656]">JAM</span>
               </div>
               <div
                 class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
@@ -235,7 +235,7 @@
                   ><span style="--value: {{ minutes }}">{{
                     minutes
                   }}</span></span
-                ><span class="text-[#436656]">MIN</span>
+                ><span class="text-[#436656]">MENIT</span>
               </div>
               <div
                 class="rounded-4xl flex flex-col bg-[#F7F7F7] p-3 text-[#2E3032] md:p-7"
@@ -249,7 +249,7 @@
                   ><span style="--value: {{ seconds }}">{{
                     seconds
                   }}</span></span
-                ><span class="text-[#436656]">SEC</span>
+                ><span class="text-[#436656]">DETIK</span>
               </div>
             </div>
           </div>
