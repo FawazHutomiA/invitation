@@ -38,7 +38,7 @@
           </div>
           <!-- Tamu -->
           <div
-            class="flex flex-col font-crimson items-center border-2 mb-[6rem] mx-5 border-[#727E67] py-2 px-[2rem] mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
+            class="flex flex-col font-crimson items-center border-2 mb-[6rem] mx-5 border-[#727E67] py-2 px-4 mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
           >
             <p class="text-[16px] font-normal">Kepada Yth.</p>
             <p class="text-[16px] font-normal">Bapak/Ibu/Saudara/i</p>
