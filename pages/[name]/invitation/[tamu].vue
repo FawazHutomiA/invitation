@@ -33,7 +33,7 @@
           </p>
           <!-- date -->
           <div class="flex flex-col text-[#477D5A] items-center text-[22px]">
-            <p class="font-normal text-[22px]">Minggu</p>
+            <p class="font-normal text-[22px]">Ahad</p>
             <p class="font-bold text-[20px]">04 | 02 | 2024</p>
           </div>
           <!-- Tamu -->
@@ -140,7 +140,7 @@
             </p>
             <div class="flex items-center gap-x-4 mt-4">
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Minggu</span
+                >Ahad</span
               >
               <div
                 class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
@@ -153,7 +153,7 @@
                 <p
                   class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
                 >
-                  Febuari
+                  Februari
                 </p>
               </div>
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
@@ -267,7 +267,7 @@
             </p>
             <div class="flex items-center gap-x-4 mt-4">
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Minggu</span
+                >Ahad</span
               >
               <div
                 class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
@@ -280,7 +280,7 @@
                 <p
                   class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
                 >
-                  Febuari
+                  Februari
                 </p>
               </div>
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
