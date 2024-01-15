@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- content -->
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center overflow-x-hidden">
       <!-- Section Cover -->
       <div id="home" class="flex flex-col items-center w-full relative">
         <img
@@ -18,23 +18,23 @@
           <img
             src="/img/risman.png"
             alt="wedding"
-            class="w-[14rem] py-6 border-4 border-white rounded-lg mt-4 mb-4 shadow-lg"
+            class="w-[18rem] py-6 border-4 border-white rounded-lg mt-4 mb-4 shadow-lg"
           />
           <p
             class="font-great mt-4 -ml-16 text-[64px] bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67]"
           >
-            Risman
+            Salma
           </p>
           <span class="font-great text-[32px] text-[#477D5A] -mt-4"> dan </span>
           <p
             class="font-great text-[64px] ml-16 -mt-3 bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67]"
           >
-            Salma
+            Risman
           </p>
           <!-- date -->
           <div class="flex flex-col text-[#477D5A] items-center text-[22px]">
-            <p class="font-normal text-[22px]">SABTU</p>
-            <p class="font-bold text-[20px]">18 | 02 | 2023</p>
+            <p class="font-normal text-[22px]">Minggu</p>
+            <p class="font-bold text-[20px]">04 | 02 | 2023</p>
           </div>
           <!-- Tamu -->
           <div
@@ -140,7 +140,7 @@
             </p>
             <div class="flex items-center gap-x-4 mt-4">
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Sabtu</span
+                >Minggu</span
               >
               <div
                 class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
@@ -148,7 +148,7 @@
                 <p
                   class="font-crimson text-[46px] text-[#477d59] font-bold -mt-6"
                 >
-                  18
+                  04
                 </p>
                 <p
                   class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
@@ -169,14 +169,15 @@
             <!-- alamat -->
             <div class="flex flex-col items-center mt-4">
               <p class="font-crimson text-[18px] font-bold text-[#555555]">
-                MASJID YAPIDH PUTRI
+               Aula Masjid Husnul Khotimah 
               </p>
-              <p class="font-crimson text-[16px] font-normal text-[#555555]">
-                Kp. Pedurenan, 01/04, Jatiasih, Kota Bekasi
+              <p class="font-crimson text-[16px] text-center font-normal text-[#555555]">
+                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426
               </p>
             </div>
             <a
-              href="https://goo.gl/maps/LNvK5nCvzSifvEQa8"
+              href="https://maps.app.goo.gl/Lqp25TtvFmiP8EhTA"
+              target="_blank"
               class="flex gap-x-2 items-center text-white px-4 py-2 rounded-lg bg-[#727E67] mt-4"
               ><svg
                 stroke="#FFFFFF"
@@ -266,7 +267,7 @@
             </p>
             <div class="flex items-center gap-x-4 mt-4">
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Sabtu</span
+                >Minggu</span
               >
               <div
                 class="flex flex-col items-center border-x-2 h-[3rem] border-[#333333] px-5"
@@ -274,7 +275,7 @@
                 <p
                   class="font-crimson text-[46px] text-[#477d59] font-bold -mt-6"
                 >
-                  18
+                  04
                 </p>
                 <p
                   class="font-crimson text-[22px] text-[#477d59] font-bold -mt-6"
@@ -295,14 +296,15 @@
             <!-- alamat -->
             <div class="flex flex-col items-center mt-4">
               <p class="font-crimson text-[18px] font-bold text-[#555555]">
-                MASJID YAPIDH PUTRI
+                Aula Masjid Husnul Khotimah
               </p>
               <p class="font-crimson text-[16px] font-normal text-[#555555]">
-                Kp. Pedurenan, 01/04, Jatiasih, Kota Bekasi
+                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426
               </p>
             </div>
             <a
-              href="https://goo.gl/maps/LNvK5nCvzSifvEQa8"
+              href="https://maps.app.goo.gl/Lqp25TtvFmiP8EhTA"
+              target="_blank" 
               class="flex gap-x-2 items-center text-white px-4 py-2 rounded-lg bg-[#727E67] mt-4"
               ><svg
                 stroke="#FFFFFF"
@@ -507,7 +509,11 @@
           </div>
 
           <!-- list pesan -->
+          <div v-if="data.length === 0" class="bg-white w-full p-4 text-[#19150e] mt-10 rounded-lg shadow-lg">
+            Belum ada pesan
+          </div>
           <div
+            v-else
             class="border-4 border-white shadow-2xl w-[20rem] flex flex-col gap-y-2 mt-10 p-4 rounded-lg h-[40rem] overflow-auto"
           >
             <div
@@ -556,7 +562,7 @@
           <p
             class="font-croissant font-semibold px-3 text-[20px] text-[#477d59] mt-3"
           >
-            Risman & Salma
+            Salma & Risman
           </p>
 
           <div class="flex gap-x-2 text-[#791c25] mt-4">
@@ -732,7 +738,7 @@ export default {
         name: "",
         message: "",
       },
-      targetDate: new Date("2024-02-18T23:59:59"), // Ganti dengan tanggal target Anda
+      targetDate: new Date("2024-02-04T23:59:59"), // Ganti dengan tanggal target Anda
       days: 0,
       hours: 0,
       minutes: 0,
