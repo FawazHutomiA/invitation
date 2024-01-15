@@ -621,7 +621,7 @@
       </div>
 
       <div
-        class="bg-white p-4 mx-3 mb-3 rounded-md fixed bottom-0 left-0 right-0 flex justify-center items-center gap-x-6"
+        class="bg-white p-4 mx-3 mb-3 rounded-md fixed bottom-0 left-0 right-0 flex justify-evenly items-center gap-x-6"
       >
         <div
           @click="scrollToHome"
@@ -684,7 +684,7 @@
           <!-- <span>Acara</span> -->
         </div>
 
-        <div
+        <!-- <div
           @click="scrollToGalery"
           class="flex flex-col items-center cursor-pointer bg-[#477D5A] rounded-lg p-2"
         >
@@ -702,8 +702,8 @@
               d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"
             ></path>
           </svg>
-          <!-- <span>Moment</span> -->
-        </div>
+          <span>Moment</span>
+        </div> -->
 
         <div
           @click="scrollToPesan"
