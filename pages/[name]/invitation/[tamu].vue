@@ -298,7 +298,7 @@
               <p class="font-crimson text-[18px] font-bold text-[#555555]">
                 Aula Masjid Husnul Khotimah
               </p>
-              <p class="font-crimson text-[16px] font-normal text-[#555555]">
+              <p class="font-crimson text-[16px] text-center font-normal text-[#555555]">
                 Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426
               </p>
             </div>
