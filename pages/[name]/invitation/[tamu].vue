@@ -326,6 +326,26 @@
         </div>
       </div>
 
+      <!-- Doa Pengantin -->
+      <div id="acara" class="flex flex-col items-center w-full relative">
+        <img
+          src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
+          alt="background"
+          class="absolute -z-10 object-cover h-full w-full bg-center opacity-100 bg-[#FFF]"
+        />
+        <div class="flex flex-col items-center pt-[4rem] pb-[6rem]">
+          <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
+            Doa Pengantin
+          </h2>
+          <p class="font-crimson font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] text-[18px] mt-6">بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
+          <p class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2">Barakallahu Laka Wa Baarakaa Alaika Wa Jamaa Bainakumaa Fii Khoir.</p>
+          <p class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2">”Semoga Allah memberikan keberkahan padamu dan mengumpulkan kalian berdua dalam kebaikan.”</p>
+          <p class="font-crimson text-[16px] text-[#555555] font-bold">
+              (HR. Abu Dawud, No. 2130)
+            </p>
+        </div>
+      </div>
+
       <!-- Section Galery -->
       <!-- <div id="galery" class="flex flex-col items-center w-full relative">
         <img
