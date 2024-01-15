@@ -78,7 +78,7 @@
               <h1 class="font-croissant font-bold text-[20px]">
                 Salma Nisa Salsabila
               </h1>
-              <p class="font-crimson text-[16px]">Putri dari Rohudi Bahri</p>
+              <p class="font-crimson text-[16px]">Putri dari Bapak Rohudi Bahri</p>
               <p class="font-crimson text-[16px]">& Ibu Susi Trisetyaningsih</p>
             </div>
             <div class="flex gap-x-2 text-[#791c25]">
@@ -91,7 +91,7 @@
                 Risman Hidayatulloh
               </h1>
               <p class="font-crimson text-[16px]">
-                Putra dari Endang Saepudin (alm)
+                Putra dari Bapak Endang Saepudin (alm)
               </p>
               <p class="font-crimson text-[16px]">& Ibu Popon Patimah</p>
             </div>
@@ -161,7 +161,7 @@
               >
             </div>
             <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
-              Pukul 08.00-10.00 WIB
+              Pukul 08.00-09.30 WIB
             </p>
             <p class="font-crimson text-[16px] font-bold text-[#477d59] mt-4">
               Alamat
@@ -288,7 +288,7 @@
               >
             </div>
             <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
-              Pukul 10.00-13.00 WIB
+              Pukul 10.00-14.00 WIB
             </p>
             <p class="font-crimson text-[16px] font-bold text-[#477d59] mt-4">
               Alamat
