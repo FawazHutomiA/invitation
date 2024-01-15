@@ -34,7 +34,7 @@
           <!-- date -->
           <div class="flex flex-col text-[#477D5A] items-center text-[22px]">
             <p class="font-normal text-[22px]">Minggu</p>
-            <p class="font-bold text-[20px]">04 | 02 | 2023</p>
+            <p class="font-bold text-[20px]">04 | 02 | 2024</p>
           </div>
           <!-- Tamu -->
           <div
@@ -157,7 +157,7 @@
                 </p>
               </div>
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Sabtu</span
+                >2024</span
               >
             </div>
             <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
@@ -284,7 +284,7 @@
                 </p>
               </div>
               <span class="font-crimson text-[20px] text-[#477d59] font-bold"
-                >Sabtu</span
+                >2024</span
               >
             </div>
             <p class="font-crimson text-[16px] font-bold text-[#555555] mt-2">
