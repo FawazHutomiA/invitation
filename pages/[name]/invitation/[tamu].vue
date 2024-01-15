@@ -327,7 +327,7 @@
       </div>
 
       <!-- Section Galery -->
-      <div id="galery" class="flex flex-col items-center w-full relative">
+      <!-- <div id="galery" class="flex flex-col items-center w-full relative">
         <img
           src="https://einvite.id/wp-content/uploads/kajian-bg-fix-01.jpg"
           alt="background"
@@ -352,7 +352,7 @@
             </div>
           </ClientOnly>
         </div>
-      </div>
+      </div> -->
 
       <!-- Section Keterangan -->
       <div class="flex flex-col items-center w-full relative">
