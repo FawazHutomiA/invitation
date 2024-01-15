@@ -21,11 +21,11 @@
       >
         {{ getName }}
       </p>
-      <p class="font-light tracking-wide text-[#477D5A] mt-12 text-[1.2rem]">
+      <p class="font-light tracking-wide text-center text-[#477D5A] mt-12 text-[1.2rem]">
         Kepada Bapak/Ibu/Saudara/i:
       </p>
       <p
-        class="bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] font-semibold mt-4 text-[2rem]"
+        class="bg-clip-text text-transparent text-center bg-gradient-to-r from-[#477D5A] to-[#727E67] font-semibold mt-4 text-[2rem]"
       >
         {{ getNameInvitation }}
       </p>
