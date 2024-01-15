@@ -31,7 +31,7 @@
       </p>
       <p class="font-light tracking-wide text-center text-[#477D5A] mt-4 text-[1rem]">
         Tanpa mengurangi rasa hormat, kami bermaksud mengundang Anda untuk
-        menghadiri acara pernikahan kami.
+        menghadiri dan mendoakan acara pernikahan kami.
       </p>
       <button
         @click="goToInvitation()"
