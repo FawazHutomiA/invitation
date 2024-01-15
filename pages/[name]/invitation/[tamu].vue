@@ -38,11 +38,11 @@
           </div>
           <!-- Tamu -->
           <div
-            class="flex flex-col font-crimson items-center border-2 mb-[6rem] border-[#727E67] py-2 px-[6rem] mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
+            class="flex flex-col font-crimson items-center border-2 mb-[6rem] mx-5 border-[#727E67] py-2 px-[2rem] mt-[4rem] rounded-md text-[#477d59] backdrop-blur-md bg-opacity-25"
           >
             <p class="text-[16px] font-normal">Kepada Yth.</p>
             <p class="text-[16px] font-normal">Bapak/Ibu/Saudara/i</p>
-            <p class="mt-4 text-[22px] font-bold">{{ getName }}</p>
+            <p class="mt-4 text-[22px] font-bold text-center">{{ getName }}</p>
             <p class="mt-4 text-[16px] font-normal">Di Tempat</p>
           </div>
         </div>
