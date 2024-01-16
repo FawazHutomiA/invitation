@@ -78,7 +78,9 @@
               <h1 class="font-croissant font-bold text-[20px]">
                 Salma Nisa Salsabila
               </h1>
-              <p class="font-crimson text-[16px]">Putri dari Bapak Rohudi Bahri</p>
+              <p class="font-crimson text-[16px]">
+                Putri dari Bapak Rohudi Bahri
+              </p>
               <p class="font-crimson text-[16px]">& Ibu Susi Trisetyaningsih</p>
             </div>
             <div class="flex gap-x-2 text-[#791c25]">
@@ -169,10 +171,13 @@
             <!-- alamat -->
             <div class="flex flex-col items-center mt-4">
               <p class="font-crimson text-[18px] font-bold text-[#555555]">
-               Aula Masjid Husnul Khotimah 
+                Aula Masjid Husnul Khotimah
               </p>
-              <p class="font-crimson text-[16px] text-center font-normal text-[#555555]">
-                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426
+              <p
+                class="font-crimson text-[16px] text-center font-normal text-[#555555]"
+              >
+                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari,
+                Kec. Jatiasih, Kota Bks, Jawa Barat 17426
               </p>
             </div>
             <a
@@ -298,13 +303,16 @@
               <p class="font-crimson text-[18px] font-bold text-[#555555]">
                 Aula Masjid Husnul Khotimah
               </p>
-              <p class="font-crimson text-[16px] text-center font-normal text-[#555555]">
-                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari, Kec. Jatiasih, Kota Bks, Jawa Barat 17426
+              <p
+                class="font-crimson text-[16px] text-center font-normal text-[#555555]"
+              >
+                Jl. Hercules Bumi Dirgantara Permai, RT.012/RW.008, Jatisari,
+                Kec. Jatiasih, Kota Bks, Jawa Barat 17426
               </p>
             </div>
             <a
               href="https://maps.app.goo.gl/Lqp25TtvFmiP8EhTA"
-              target="_blank" 
+              target="_blank"
               class="flex gap-x-2 items-center text-white px-4 py-2 rounded-lg bg-[#727E67] mt-4"
               ><svg
                 stroke="#FFFFFF"
@@ -337,12 +345,26 @@
           <h2 class="font-croissant font-bold text-[#477d59] text-[18px] mt-2">
             Doa Pengantin
           </h2>
-          <p class="font-crimson font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] text-[18px] mt-6">بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
-          <p class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2">Barakallahu Laka Wa Baarakaa Alaika Wa Jamaa Bainakumaa Fii Khoir.</p>
-          <p class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2">”Semoga Allah memberikan keberkahan padamu dan mengumpulkan kalian berdua dalam kebaikan.”</p>
+          <p
+            class="font-crimson font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#477D5A] to-[#727E67] text-[18px] mt-6"
+          >
+            بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي
+            خَيْرٍ
+          </p>
+          <p
+            class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2"
+          >
+            Baarakallahu Laka Wa Baaraka 'Alaika Wa Jama'a Bainakumaa Fii Khoir.
+          </p>
+          <p
+            class="text-[#555555] text-[16px] font-crimson text-center italic mt-6 px-2"
+          >
+            ”Semoga Allah memberikan keberkahan padamu dan mengumpulkan kalian
+            berdua dalam kebaikan.”
+          </p>
           <p class="font-crimson text-[16px] text-[#555555] font-bold">
-              (HR. Abu Dawud, No. 2130)
-            </p>
+            (HR. Abu Dawud, No. 2130)
+          </p>
         </div>
       </div>
 
@@ -529,7 +551,10 @@
           </div>
 
           <!-- list pesan -->
-          <div v-if="data.length === 0" class="bg-white w-full p-4 text-[#19150e] mt-10 rounded-lg shadow-lg">
+          <div
+            v-if="data.length === 0"
+            class="bg-white w-full p-4 text-[#19150e] mt-10 rounded-lg shadow-lg"
+          >
             Belum ada pesan
           </div>
           <div
